@@ -34,9 +34,9 @@ const Navbar = () => {
           </a>
         </div>
         <div className="md:hidden">
-            <a className="font-semibold">
-                <Link href="#">Pendaftaran</Link>
-            </a>
+          <a className="font-semibold">
+            <Link href="#">Pendaftaran</Link>
+          </a>
         </div>
       </div>
     </div>
