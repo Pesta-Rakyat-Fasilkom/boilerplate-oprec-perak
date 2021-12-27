@@ -1,11 +1,10 @@
 import React from 'react'
-import Image from 'next/image'
 
 const ImageContainer = () => {
     return (
-        <div className='h-48 w-48'>
-            <div className='h-full w-full bg-purple-700 rounded-md flex items-center justify-center transition ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-green-400 duration-300'>
-                <div className='m-2 bg-purple-900 rounded-md hover:bg-green-600 duration-300'>
+        <div className='h-32 w-32 md:w-40 md:h-40'>
+            <div className='h-full w-full bg-game-icon-outer rounded-md flex items-center justify-center transition ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-hover-game-icon-outer duration-300 p-2'>
+            <div className=' bg-game-icon-inner rounded-lg hover:bg-hover-game-icon-inner duration-300'>
                     <div className='m-5'>
                        <img src='https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png'/>
                     </div>
@@ -16,3 +15,4 @@ const ImageContainer = () => {
 }
 
 export default ImageContainer
+

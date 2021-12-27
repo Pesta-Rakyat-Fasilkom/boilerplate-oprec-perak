@@ -14,8 +14,24 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <Navbar />
-        <ImageContainer />
+        <div className="min-h-screen bg-main-home pb-5">
+          <Navbar />
+          <div className="pt-16">
+            <div className="py-12 text-2xl font-bold px-5 text-blue-title md:text-3xl">
+              <p>Pilih games yang</p>
+              <p>kamu inginkan</p>
+            </div>
+            <div className="px-5 font-semibold text-white my-5 md:text-xl">
+              <p>Games Individual</p>
+            </div>
+            <div className="grid grid-cols-2 gap-5 md:justify-items-start md:grid-cols-4 mx-5 lg:gap-0 lg:gap-y-5 lg:grid-cols-6 justify-items-center">
+              <ImageContainer />
+              <ImageContainer />
+              <ImageContainer />
+              <ImageContainer />
+            </div>
+          </div>
+        </div>
       </main>
     </div>
   );
