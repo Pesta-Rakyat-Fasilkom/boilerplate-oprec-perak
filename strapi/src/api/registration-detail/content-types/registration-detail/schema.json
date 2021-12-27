@@ -25,9 +25,7 @@
       "type": "media",
       "multiple": false,
       "required": true,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
     },
     "npm": {
       "type": "biginteger",
@@ -45,10 +43,7 @@
     },
     "jenisElemen": {
       "type": "enumeration",
-      "enum": [
-        "elemen",
-        "mahasiswa"
-      ],
+      "enum": ["elemen", "mahasiswa"],
       "required": true
     }
   }

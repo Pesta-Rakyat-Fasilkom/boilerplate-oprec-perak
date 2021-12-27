@@ -1,9 +1,11 @@
-'use strict';
+"use strict";
 
 /**
  * registration-detail router.
  */
 
-const { createCoreRouter } = require('@strapi/strapi').factories;
+const { createCoreRouter } = require("@strapi/strapi").factories;
 
-module.exports = createCoreRouter('api::registration-detail.registration-detail');
+module.exports = createCoreRouter(
+  "api::registration-detail.registration-detail"
+);
